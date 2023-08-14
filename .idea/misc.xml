@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_adm.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_alerta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_criar_conta.xml" value="0.25" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_dados_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_noticia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_prevencao.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/activity_previsao.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/layout/tela_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IFSP/Downloads/SOSCAPIVARI-0308/SOSCAPIVARII-0308/SOSCAPIVARII-2206/TCC/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
