@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TCC">
         <activity
+            android:name=".CadastroAlerta"
+            android:exported="false" />
+        <activity
             android:name=".Adm"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
             android:name=".DadosUsuario"
             android:exported="false"
-            android:theme="@style/Theme.TCCcomBarra"/>
+            android:theme="@style/Theme.TCCcomBarra" />
         <activity
             android:name=".Prevencao"
             android:exported="false"

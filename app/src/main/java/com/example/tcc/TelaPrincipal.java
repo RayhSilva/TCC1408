@@ -6,11 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class TelaPrincipal extends AppCompatActivity {
@@ -18,6 +22,7 @@ public class TelaPrincipal extends AppCompatActivity {
     ImageView alerta;
     ImageView previsao;
     ImageView prevencao;
+    FloatingActionButton floatingActionButton ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +60,15 @@ public class TelaPrincipal extends AppCompatActivity {
                 prevencao();
             }
         });
+
+        floatingActionButton = (FloatingActionButton) findViewById(R.id.floatingActionButton);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                botaomais();
+            }
+        });
+
     }
 
     @Override
@@ -79,6 +93,8 @@ public class TelaPrincipal extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+
+
 
    // public void bateOSino(){
       //  Toast.makeText(this, "Bate o Sino Pequenino de Belém", Toast.LENGTH_SHORT).show();
@@ -112,5 +128,11 @@ public class TelaPrincipal extends AppCompatActivity {
         Intent intent = new Intent(this, Adm.class);
         startActivity(intent);
     }
+
+    public void botaomais() {
+        Intent intent = new Intent(this, CadastroAlerta.class);
+        startActivity(intent);
+    }
+
 
     }
