@@ -17,18 +17,91 @@
         android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNomeC7"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Complemento"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC8"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8" />
+
+    <EditText
+        android:id="@+id/txtNomeC8"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="CEP"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC9"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8" />
+
+    <EditText
+        android:id="@+id/txtNomeC9"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:hint="Ponto de Referência"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/txtNomeC4"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Bairro"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC7"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8" />
+
+    <EditText
+        android:id="@+id/txtNomeC5"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Número "
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC4"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8" />
+
+    <EditText
+        android:id="@+id/txtNomeC6"
+        style="@style/Edit_Text"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Rua"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC5"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentes8" />
 
     <ImageView
         android:id="@+id/alerta3"
         android:layout_width="99dp"
         android:layout_height="83dp"
         android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtNomeC6"
         app:layout_constraintEnd_toEndOf="@+id/containerComponentes8"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="@+id/containerComponentes8"
         app:layout_constraintTop_toTopOf="@+id/containerComponentes8"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/alerta" />
 </androidx.constraintlayout.widget.ConstraintLayout>

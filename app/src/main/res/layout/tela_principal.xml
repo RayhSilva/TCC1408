@@ -142,7 +142,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/containerComponentes"
             app:layout_constraintTop_toBottomOf="@+id/noticia"
-            app:srcCompat="@drawable/chuva" />
+            app:srcCompat="@drawable/image18" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>
