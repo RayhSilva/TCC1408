@@ -1,4 +1,4 @@
-package com.example.tcc;
+package com.example.SOSCAPIVARI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,14 +8,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class DadosUsuario extends AppCompatActivity {
+public class Adm extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dados_usuario);
-    }
+        setContentView(R.layout.activity_adm);
 
+    }
 
 
     @Override
@@ -53,3 +53,4 @@ public class DadosUsuario extends AppCompatActivity {
     }
 
 }
+

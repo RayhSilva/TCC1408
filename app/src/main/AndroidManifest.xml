@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tcc">
+    package="com.example.SOSCAPIVARI">
 
     <application
         android:allowBackup="true"
@@ -10,47 +10,47 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TCC">
         <activity
-            android:name=".CadastroAlerta"
+            android:name="com.example.SOSCAPIVARI.CadastroAlerta"
             android:exported="false" />
         <activity
-            android:name=".Adm"
+            android:name="com.example.SOSCAPIVARI.Adm"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".DadosUsuario"
+            android:name="com.example.SOSCAPIVARI.DadosUsuario"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".Prevencao"
+            android:name="com.example.SOSCAPIVARI.Prevencao"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".Previsao"
+            android:name="com.example.SOSCAPIVARI.Previsao"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".Alerta"
+            android:name="com.example.SOSCAPIVARI.Alerta"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".Noticia"
+            android:name="com.example.SOSCAPIVARI.Noticia"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".CriarConta"
+            android:name="com.example.SOSCAPIVARI.CriarConta"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name="com.example.SOSCAPIVARI.Login"
             android:exported="false" />
         <activity
-            android:name=".TelaInicial"
+            android:name="com.example.SOSCAPIVARI.TelaInicial"
             android:exported="false" />
         <activity
-            android:name=".TelaPrincipal"
+            android:name="com.example.SOSCAPIVARI.TelaPrincipal"
             android:exported="false"
             android:theme="@style/Theme.TCCcomBarra" />
         <activity
-            android:name=".Splash"
+            android:name="com.example.SOSCAPIVARI.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

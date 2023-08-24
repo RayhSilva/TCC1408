@@ -1,4 +1,4 @@
-package com.example.tcc;
+package com.example.SOSCAPIVARI;
 
 import androidx.appcompat.app.AppCompatActivity;
 

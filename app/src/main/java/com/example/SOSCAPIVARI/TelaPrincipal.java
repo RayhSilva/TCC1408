@@ -1,4 +1,4 @@
-package com.example.tcc;
+package com.example.SOSCAPIVARI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,12 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 
 
-import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

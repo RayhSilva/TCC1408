@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "886051693642",
+    "project_id": "sos-capivari-75cea",
+    "storage_bucket": "sos-capivari-75cea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886051693642:android:41ef8a9728a51ab228b2b3",
+        "android_client_info": {
+          "package_name": "com.example.tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886051693642-kmugqanp51dvr2q6ofh6mihorenvdogm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tcc",
+            "certificate_hash": "f051c053183291c3ff18ba7378e941fc8ff8d842"
+          }
+        },
+        {
+          "client_id": "886051693642-l9t0pbjp630snogkr2o18kp6j8euntn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxZ2Op8AuIvpJzzHbl5MY9MB58QVwGYpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886051693642-l9t0pbjp630snogkr2o18kp6j8euntn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

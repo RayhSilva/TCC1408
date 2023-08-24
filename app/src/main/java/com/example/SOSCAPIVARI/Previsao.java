@@ -1,4 +1,4 @@
-package com.example.tcc;
+package com.example.SOSCAPIVARI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,14 +8,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class Alerta extends AppCompatActivity {
+public class Previsao extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alerta);
+        setContentView(R.layout.activity_previsao);
     }
-
 
 
     @Override
